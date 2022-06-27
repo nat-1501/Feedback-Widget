@@ -1,6 +1,6 @@
 import { ArrowLeft, Camera } from "phosphor-react";
 import { FormEvent, useState } from "react";
-import { feedbackType, feedbackTypes } from ".."
+import { FeedbackType, feedbackTypes } from ".."
 import { api } from "../../../lib/api";
 import { CloseButton } from "../../CloseButton"
 import { Loading } from "../Loading";
@@ -8,7 +8,7 @@ import { ScreenshotButton } from "../ScreenshotButton";
 
 
 interface FeedbackContentStepProps{
-    feedbackType: feedbackType; 
+    feedbackType: FeedbackType; 
     onFeedbackRestartRequested: () => void;
     onFeedbackSent: () => void;
 }
@@ -78,10 +78,10 @@ export function FeedbackContentStep({
                 />
 
                 <footer className="flex gap-2 mt-2">
-                   <ScreenshotButton 
-                        screenshot={screenshot}
-                        onScreenshotTook={setScreenshot}
-                   />
+                        <ScreenshotButton
+                            screenshot={screenshot}
+                            onScreenshotTaken={setScreenshot}
+                        />
                     
                     <button
                     type="submit"

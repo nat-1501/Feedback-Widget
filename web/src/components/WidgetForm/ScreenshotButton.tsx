@@ -3,13 +3,12 @@ import html2canvas from 'html2canvas';
 import { useState } from "react";
 import { Loading } from "./Loading";
 
-interface ScreenshotButtonProps {
-    screenshot: string;
-    onScreenshotTook: (screenshot: string | null) => void;
+interface FeedbackTypeStepProps {
+    onScreenshotTaken: (screenshot: string | null) => void;
+    screenshot: string | null;
 }
 
-export function ScreenshotButton({ screenshot, 
-    onScreenshotTook }: ScreenshotButtonProps) {
+export function ScreenshotButton({ onScreenshotTaken, screenshot }: FeedbackTypeStepProps) {
     const [isTakingScreenshot, setIsTakingScreenshot] = useState(false)
 
   async function handleTakeScreenshot() {
@@ -17,9 +16,9 @@ export function ScreenshotButton({ screenshot,
     setIsTakingScreenshot(true);
 
       const canvas = await html2canvas(document.querySelector('html')!);
-      const base64image = canvas.toDataURL('image/png');
+      const base64image = canvas.toDataURL('image/png')
 
-        onScreenshotTook(base64image);
+        onScreenshotTaken(base64image);
         setIsTakingScreenshot(false);
     }
 
@@ -28,7 +27,7 @@ export function ScreenshotButton({ screenshot,
             <button
             type="button"
             className="p-1 w-10 h-10 rounded-md border-transparent flex justify-end items-end text-zinc-400 hover:text-zinc-100 transparent transition-colors"
-            onClick={() => onScreenshotTook(null)}
+            onClick={() => onScreenshotTaken(null)}
             style={{
                 backgroundImage: `url(${screenshot})`,
                 backgroundPosition:'right bottom',
