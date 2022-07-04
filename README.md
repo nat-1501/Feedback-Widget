@@ -2,6 +2,11 @@
 ![image](https://user-images.githubusercontent.com/2619027/166560403-6fcef1c6-e9e5-49f8-9f09-ba94f08271cd.png)
 
 
+![GitHub language count](https://img.shields.io/github/languages/count/nat-1501/Feedback-Widget)
+![GitHub top language](https://img.shields.io/github/languages/top/nat-1501/Feedback-Widget)
+
+
+
 
 
 
