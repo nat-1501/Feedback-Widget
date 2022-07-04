@@ -1,10 +1,13 @@
+<div align="center">
 
 ![image](https://user-images.githubusercontent.com/2619027/166560403-6fcef1c6-e9e5-49f8-9f09-ba94f08271cd.png)
 
-
-![GitHub language count](https://img.shields.io/github/languages/count/nat-1501/Feedback-Widget)
-![GitHub top language](https://img.shields.io/github/languages/top/nat-1501/Feedback-Widget)
-
+<div align="center">
+    ![GitHub top language](https://img.shields.io/github/languages/top/nat-1501/Feedback-Widget)
+    ![GitHub language count](https://img.shields.io/github/languages/count/nat-1501/Feedback-Widget)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/nat-1501/Feedback-Widget)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/nat-1501/Feedback-Widget)
+</div>
 
 
 
@@ -34,15 +37,15 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 -   [ ] Jest
 -   [ ] Nodemailer
 -   [ ] Express
+-   [ ] PostgreSQL
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
--   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
--   [ ] Lista os servidores do Discord que o usuário faz parte;
--   [ ] Permite realizar o agendamento de partidas;
--   [ ] Permite filtrar as partidas por categoria;
--   [ ] Exibe se a partida foi agendada em um servidor próprio (anfitrião) ou em servidores de outros (convidado);
+
+-   [ ] Um e-mail para sua caixa de e-mails é enviado com o seu feedback;
+-   [ ] Permite realizar um Screenshot da tela do usuario para enviar junto ao feedback;
 -   [ ] Tema Dark/Light;
 -   [ ] Permite redirecionar o usuário para dashboard dos feedacks;
--   [ ] Disponibiliza a função de Logout.
+-   [ ] Disponibiliza a função de Logout;
+-   [ ] Autenticação de login (Firebase) .
+
