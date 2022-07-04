@@ -50,7 +50,7 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 -   [ ] Disponibiliza a função de Logout;
 -   [ ] Autenticação de login (Firebase) .
 
-## Executando o projeto
+ ## 🚀 Executando o projeto
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
 Em seguida, inicie o projeto.
