@@ -1,5 +1,9 @@
 
-![image](https://user-images.githubusercontent.com/2619027/166560403-6fcef1c6-e9e5-49f8-9f09-ba94f08271cd.png)
+
+![ffff](https://user-images.githubusercontent.com/71294409/177211628-3adedd43-0bbd-477d-86a0-9c7ed5c9d400.png)
+
+![Sem título23](https://user-images.githubusercontent.com/71294409/177212112-51e071b6-895f-49d2-befd-40105e9554ed.png)
+![Sem título234](https://user-images.githubusercontent.com/71294409/177212129-db60cd5a-7974-485d-b6ee-c4330150d04b.png)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/nat-1501/Feedback-Widget)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nat-1501/Feedback-Widget)
