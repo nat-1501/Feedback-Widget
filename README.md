@@ -4,11 +4,15 @@
 
 ![widget feedback](https://user-images.githubusercontent.com/71294409/177214698-faf65a69-085d-4729-89cf-65e01d1d8ef9.png)
 
+<div align="center">
 
 ![GitHub language count](https://img.shields.io/github/languages/count/nat-1501/Feedback-Widget)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nat-1501/Feedback-Widget)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nat-1501/Feedback-Widget)
 ![GitHub top language](https://img.shields.io/github/languages/top/nat-1501/Feedback-Widget)
+
+</div>
+
 
 ## 💻 Projeto
 Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usuario com o desenvolvedor de uma forma empatica e criativa, com função de screenshot para que o usuario possa mandar um screenshot. Após o envio do feedback uma msg por email do usuario é enviada com o proprio feedback.
