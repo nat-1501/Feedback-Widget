@@ -14,10 +14,10 @@
 </div>
 
 
-## 💻 Projeto
+## 💻 Project
 Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usuario com o desenvolvedor de uma forma empatica e criativa, com função de screenshot para que o usuario possa mandar um screenshot. Após o envio do feedback uma msg por email do usuario é enviada com o proprio feedback.
 
-## ✨ Tecnologias
+## ✨ Technology
 
 -   [ ] ReactJS
 -   [ ] Typescript
@@ -50,22 +50,43 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 -   [ ] Disponibiliza a função de Logout;
 -   [ ] Autenticação de login (Firebase) .
 
- ## 🚀 Executando o projeto
+## Clone repository
+
+Vá para o diretório onde você deseja colocar o repositório
+
+```bash
+  cd my-directory
+```
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/nat-1501/Feedback-Widget.git
+```
+
+Vá para o diretório do projeto
+
+```bash
+  cd Feedback-Widget
+```
+
+
+ ## 🚀 Running the project
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
+Em seguida, inicie o projeto web (Front-end)
 
-```cl
-expo start
+```bash
+  npm run dev
+```
+Para o server (Back-end)
+```bash
+  npm server
 ```
 
-Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
- 
- ```cl
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
-```
+Agora você pode acessar http://localhost:3000 do seu navegador.
+
+Foi utilizado o ([mailTrap](https://mailtrap.io/)) para gerenciar o recebimento dos feedbacks por email e o PostgreSQL ([nuvem](https://railway.app/)) para armazenar os feedbacks. 
+
+
 
