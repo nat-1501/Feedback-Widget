@@ -40,6 +40,12 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 -   [ ] Express
 -   [ ] PostgreSQL
 
+## ⚒️  Pre-requisites
+
+É necessário ter instalado em sua maquina ([NodeJS](https://nodejs.org/en/)),
+([Insomnia](https://insomnia.rest/download)) (Ou outro de sua preferencia), e 
+([Git](https://git-scm.com/downloads))
+
 ## :hammer_and_wrench: Features 
 
 
@@ -77,9 +83,16 @@ Utilize o **yarn** ou o **npm install** para instalar as dependências do projet
 Em seguida, inicie o projeto web (Front-end)
 
 ```bash
+  npm install
+```
+
+```bash
   npm run dev
 ```
 Para o server (Back-end)
+```bash
+  npm install
+```
 ```bash
   npm server
 ```
