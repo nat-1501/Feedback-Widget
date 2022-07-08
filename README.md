@@ -19,26 +19,25 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 
 ## ✨ Technology
 
--   [ ] ReactJS
--   [ ] Typescript
--   [ ] TailWindCSS
--   [ ] React-DOM
--   [ ] Vite
--   [ ] NodeJS
--   [ ] Vercel
--   [ ] Insomnia
--   [ ] Railway
--   [ ] Vite
--   [ ] Phosphor-React
--   [ ] Autoprefixer
--   [ ] Axios
--   [ ] Postcss
--   [ ] Cors
--   [ ] Prisma-Client
--   [ ] Jest
--   [ ] Nodemailer
--   [ ] Express
--   [ ] PostgreSQL
+- ReactJS
+- Typescript
+- TailWindCSS
+- React-DOM
+- Vite
+- NodeJS
+- Vercel
+- Insomnia
+- Railway
+- Vite
+- Phosphor-React
+- Autoprefixer
+- Axios
+- Postcss
+- Cors
+- Prisma-Client
+- Jest
+- Nodemailer
+- PostgreSQL
 
 ## ⚒️  Pre-requisites
 
@@ -49,12 +48,12 @@ Feedback-Widget foi desenvolvido com a finalidade de conectar a opinião do usua
 ## :hammer_and_wrench: Features 
 
 
--   [ ] Um e-mail para sua caixa de e-mails é enviado com o seu feedback;
--   [ ] Permite realizar um Screenshot da tela do usuario para enviar junto ao feedback;
--   [ ] Tema Dark/Light;
--   [ ] Permite redirecionar o usuário para dashboard dos feedacks;
--   [ ] Disponibiliza a função de Logout;
--   [ ] Autenticação de login (Firebase) .
+- Um e-mail para sua caixa de e-mails é enviado com o seu feedback;
+- Permite realizar um Screenshot da tela do usuario para enviar junto ao feedback;
+- Tema Dark/Light;
+- Permite redirecionar o usuário para dashboard dos feedacks;
+- Disponibiliza a função de Logout;
+- Autenticação de login (Firebase)
 
 ## Clone repository
 
